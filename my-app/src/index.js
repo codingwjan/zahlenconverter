@@ -56,7 +56,7 @@ root.render(
                     <p>
                         Convert a Hexadecimal value to binary 
                     </p>
-                    <a href="" className='link'>Convert</a>
+                    <a href="https://www.rapidtables.com/convert/number/hex-to-binary.html" className='link'>Convert</a>
                 </section>
                 
                 <section className='dectohex'>
@@ -64,7 +64,7 @@ root.render(
                         Binary to Hex
                     </h2>
                     <p>
-                        Convert a Binary value ton decimal 
+                        Convert a Binary value to decimal 
                     </p>
                     <a href="https://www.rapidtables.com/convert/number/binary-to-decimal.html" className='link'>Convert</a>
                 </section>
