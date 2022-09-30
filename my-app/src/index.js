@@ -7,7 +7,70 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='container'>
+        <section className='dectobin'>
+            <h2>
+                Decimal to binary
+            </h2>
+            <p>
+                Convert a decimal value to binary
+            </p>
+            <a href="https://waa.ai/f1nU" className='link'>Convert</a>
+        </section>
+        
+        <section className='dectohex'>
+            <h2>
+                Decimal to hexadecimal
+            </h2>
+            <p>
+                Convert a decimal value to hexad
+            </p>
+            <a href="https://codepen.io/Digitango/pen/eRRZaP" className='link'>Convert</a>
+        </section>
+
+      
+            <section className='dectobin'>
+                <h2>
+                  Convert a Hex to binary 
+                </h2>
+                <p>
+                   Convert a Hexadecimal value to binary  
+                </p>
+                <a href="https://www.rapidtables.com/convert/number/hex-to-binary.html" className='link'>Convert</a>
+            </section>
+            
+            <section className="dectohex">
+                <h2>
+                    Binary to Decimal
+                </h2>
+                <p>
+                    Convert a Binary value to Hexadecimal 
+                </p>
+                <a href="https://www.rapidtables.com/convert/number/binary-to-hex.html" className='link'>Convert</a>
+            </section>
+            <div className='container'>
+                <section className='dectobin'>
+                    <h2>
+                      Hex to Decimal  
+                    </h2>
+                    <p>
+                        Convert a Hexadecimal value to binary 
+                    </p>
+                    <a href="" className='link'>Convert</a>
+                </section>
+                
+                <section className='dectohex'>
+                    <h2>
+                        Binary to Hex
+                    </h2>
+                    <p>
+                        Convert a Binary value ton decimal 
+                    </p>
+                    <a href="https://www.rapidtables.com/convert/number/binary-to-decimal.html" className='link'>Convert</a>
+                </section>
+                    
+          </div> 
+      </div>
   </React.StrictMode>
 );
 
